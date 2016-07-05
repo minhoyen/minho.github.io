@@ -1,0 +1,54 @@
+/*一些基本設定*/
+* {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-family: 'Noto Sans TC', sans-serif, serif;
+    box-sizing: border-box;
+}
+body { 
+  font-size: 16px; 
+  font-family: Helvetica, Arial, '微軟正黑體', sans-serif; 
+  text-align: center; 
+  color: #444; 
+}
+
+/*header的基本設定*/
+
+h1 {
+    font-size: 2.0em;
+    color: #50a1ff;
+}
+h2{
+    color: saddlebrown;
+}
+
+p {
+    font-size: 0.8em;
+    color:cadetblue;
+}
+.featured-image {
+    width: 100%;
+    height: 350px;
+    background-image: url(../images/big%204.jpg);
+    background-size:cover;
+}
+.row: after{
+    content:normal;
+    clear: both;
+    display: block;
+}
+
+div{
+    
+}
+
+.thumbnail.avatar {
+    border: none;
+    text-align: center;
+}
+
+.avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}

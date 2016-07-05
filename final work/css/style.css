@@ -1,0 +1,46 @@
+/*
+h1{
+    color: fuchsia;
+}
+*/
+
+.jumbotron {
+    background-color: #1c3b3b;
+    background-image: url(../images/background.jpg);
+    color: white;
+    background-size: cover;
+    text-align: center;
+    padding: 250px;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+}
+
+.glyphicon-home {
+    font-size: 18px;
+    color: yellow;
+    padding-right: 15px;
+}
+
+.glyphicon-user {
+    font-size: 18px;
+    color: aquamarine;
+    padding-right: 10px;
+}
+
+#main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.thumbnail.avatar {
+    border: none;
+    text-align: center;
+}
+
+.avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
